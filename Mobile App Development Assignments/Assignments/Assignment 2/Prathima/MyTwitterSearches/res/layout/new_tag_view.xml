@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+   >
+   <Button
+        android:id="@+id/newTagButton"
+        android:layout_width="@dimen/tagButtonWidth"
+        android:layout_height="wrap_content"
+         />
+
+    <Button
+        android:id="@+id/newEditButton"
+        android:layout_width="@dimen/editButtonWidth"
+        android:layout_height="wrap_content"
+        android:text="@string/Edit"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/newDeleteButton"
+        android:layout_width="@dimen/deleteButtonWidth"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:textSize="14sp" />
+
+</TableRow>

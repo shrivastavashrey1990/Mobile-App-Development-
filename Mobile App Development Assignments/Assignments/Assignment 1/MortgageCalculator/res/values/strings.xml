@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MortgageCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="LoanAmount">Loan Amount</string>
+    <string name="zero">0.0</string>
+    <string name="Ten_Years">10 Years</string>
+    <string name="Fifteen_Years">15 Years</string>
+    <string name="thirty_years">30 Years</string>
+    <string name="Monthly_payment">Monthly Payment</string>
+    <string name="Annual_Interest_Rate">Annual Interest Rate</string>
+    <string name="Four_Percent">4%</string>
+
+</resources>

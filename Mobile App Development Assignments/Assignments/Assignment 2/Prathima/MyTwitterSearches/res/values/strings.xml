@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyTwitterSearches</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Deletebutton">GoBack</string>
+    <string name="queryhint">Enter Twitter Search Query Here</string>
+    <string name="taghint">Tag Your Query Here</string>
+    <string name="save">Save</string>
+    <string name="taggedtext">TAGGED SEARCHES</string>
+    <string name="clearbutton">Clear Tags</string>
+    <string name="Edit">Edit</string>
+    <string name="delete">DEL</string>
+    <string name="OK">OK</string>
+    <string name="missingTitle">Text is Missing - Enter Text</string>
+    <string name="missingMessage">Please enter a search query and tag it.</string>
+    <string name="confirmTitle">Are You Sure You Want To Delete All TAgs ?</string>
+    <string name="confirmMessage">All Your Saved Searches Will Be Deleted !</string>
+    <string name="cancel">Cancel</string>
+    <string name="erase">Erase</string>
+    <string name="tagPrompt">Please Tag Your Query !</string>
+    <string name="searchURL">http://search.twitter.com/search?q=</string>
+    <string name="confirmtagdelete">Your Tag Is Deleted !!</string>
+    <string name="confirmdelmsg">You can go back and create more TAGs !!</string>
+
+</resources>

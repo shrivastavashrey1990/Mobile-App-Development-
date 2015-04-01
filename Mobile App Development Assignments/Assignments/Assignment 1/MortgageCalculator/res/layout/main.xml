@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:padding="5dp"
+    android:stretchColumns="1,2,3" >
+
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/LoanAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:text="@string/LoanAmount"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/LoanAmountEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text="@string/zero"
+            android:textSize="10sp" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tenTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:text="@string/Ten_Years"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/fifteenTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Fifteen_Years"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/thirtyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/thirty_years"
+            android:textSize="10sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/monthlyPaymentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="@string/Monthly_payment"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/TenEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textMultiLine"
+            android:longClickable="false"
+            android:text="@string/zero"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/FifteenEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="textMultiLine"
+            android:longClickable="false"
+            android:text="@string/zero"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/ThirtyEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="textMultiLine"
+            android:text="@string/zero"
+            android:textSize="10sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/TotalPaymentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="Total Payment"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/TenTotalPaymentEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="@string/zero"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/fifteenTotalPaymenteditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="@string/zero"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/ThirtyTotalPaymentEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:paddingBottom="5dp"
+            android:text="@string/zero"
+            android:textSize="10sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/customAIRTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/Annual_Interest_Rate"
+            android:textSize="10sp" />
+
+        <SeekBar
+            android:id="@+id/customSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:paddingLeft="12dp"
+            android:paddingRight="8dp"
+            android:progress="4" />
+
+        <TextView
+            android:id="@+id/AIRtextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingRight="5dp"
+            android:text="@string/Four_Percent"
+            android:textSize="10sp" />
+
+    </TableRow>
+
+</TableLayout>
